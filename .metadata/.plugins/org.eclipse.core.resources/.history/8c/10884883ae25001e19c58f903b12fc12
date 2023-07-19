@@ -1,0 +1,42 @@
+/*
+ * C Program to add two distances (inch-feet) using structure and display the result.
+ */
+
+
+#include <stdio.h>
+
+typedef struct{
+
+	float feet, inch;
+
+}Distance;
+
+
+int main(void){
+
+	Distance D1,D2;
+
+	printf("enter first distance in feet\n");
+	fflush(stdout);
+	scanf("%f",&D1.feet);
+	printf("enter first distance in inch\n");
+	fflush(stdout);
+	scanf("%f",&D1.inch);
+	printf("enter second distance in feet\n");
+	fflush(stdout);
+	scanf("%f",&D2.feet);
+	printf("enter second distance in inch\n");
+	fflush(stdout);
+	scanf("%f",&D2.inch);
+
+
+
+
+
+
+
+
+
+
+	return 0;
+}

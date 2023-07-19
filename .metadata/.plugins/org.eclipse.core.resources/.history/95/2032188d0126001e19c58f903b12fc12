@@ -1,0 +1,27 @@
+/*
+ * C Function to store information (name, id and grade) for 10
+	students in array of structures using pointers and another
+	function to print all the structures using pointers.
+ *
+ */
+
+#include <stdio.h>
+
+typedef struct{
+	char Name[50];
+	int ID;
+	float Grade;
+}Student_Info;
+
+int main(void){
+
+	Student_Info Student[10];
+
+
+
+
+
+	return 0;
+}
+
+

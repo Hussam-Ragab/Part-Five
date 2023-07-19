@@ -1,0 +1,27 @@
+/*
+ *  C Function to calculate the difference between two time periods using structures.
+ */
+
+#include <stdio.h>
+
+typedef struct{
+
+	int hour;
+	int minute;
+	int second;
+
+}Period;
+
+Period Diff_Time(Period T1, Period T2);
+
+int main(void){
+
+	Period Time1, Time2;
+	printf("enter first Time\n");
+	fflush(stdout);
+	scanf("%d%d%d",&Time1.hour,&Time1.minute,&Time1.second);
+
+
+
+	return 0;
+}

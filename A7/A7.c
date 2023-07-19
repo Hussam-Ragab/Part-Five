@@ -1,0 +1,41 @@
+/*
+ * Create enum type called fan_level it shall have three values
+	Level1, Level2 and Level3. This enum shall be used to
+	control the level of the fan.
+ */
+
+
+#include <stdio.h>
+
+typedef enum{
+	level1,
+	level2,
+	level3
+}Fan_Level;
+
+int main(void){
+
+	Fan_Level Level;
+	printf("enter level speed\n");
+	fflush(stdout);
+	scanf("%ud",&Level);
+
+	if(Level == level1)
+	{
+		printf("Fan Off");
+		fflush(stdout);
+	}
+	else if(Level == level2)
+	{
+		printf("Fan Mid Speed");
+	}
+	else
+	{
+		printf("Fan High Speed");
+	}
+
+
+
+
+	return 0;
+}

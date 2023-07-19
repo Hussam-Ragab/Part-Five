@@ -1,0 +1,35 @@
+/*
+ *  C function to add two complex numbers by passing two structure to a function and display the results.
+ */
+
+#include <stdio.h>
+
+typedef struct{
+
+	float real;
+	float imag;
+
+}Complex;
+
+int main(void){
+
+	Complex Num1,Num2;
+
+	printf("enter first complex number\n");
+	fflush(stdout);
+	scanf("%f%f",&Num1.real,&Num1.imag);
+	printf("enter second complex number\n");
+	fflush(stdout);
+	scanf("%f%f",&Num2.real,&Num2.imag);
+
+
+
+
+
+
+
+
+
+
+	return 0;
+}

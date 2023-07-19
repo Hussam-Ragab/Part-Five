@@ -1,0 +1,24 @@
+/*
+ * C Program to store information (name, roll and marks) for a student using structure and display it.
+ */
+
+#include <stdio.h>
+typedef struct{
+	char Name[30];
+	int Roll;
+	float Marrk;
+}Student_Info;
+
+int main(void){
+
+
+
+
+
+
+
+
+	return 0;
+}
+
+
